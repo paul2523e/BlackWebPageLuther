@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Keys and certificates
+*.pem
+*.key
+*.p12
+*.crt
+*.cert
+id_rsa
+id_rsa.pub
+
+# Caches and coverage
+.cache/
+.sass-cache/
+coverage/
+
+# Archives
+*.tgz
+
+# Misc
+*.swp
+*~
+
+# Optional: ignore node lockfiles if you prefer (uncomment if desired)
+# package-lock.json
+# yarn.lock
