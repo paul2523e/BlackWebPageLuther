@@ -4215,6 +4215,34 @@ img.u-pull-left {
 }
 
 /* ------------------------------------------------------------------- 
+ * ## under construction notice
+ * ------------------------------------------------------------------- */
+.s-construction {
+    background-color : rgba(255, 215, 0, 0.05);
+    border-top       : 1px solid rgba(255, 215, 0, 0.2);
+    border-bottom    : 1px solid rgba(255, 215, 0, 0.2);
+    padding          : var(--vspace-2) var(--gutter);
+    margin-top       : var(--vspace-3);
+}
+
+.construction-notice {
+    text-align : center;
+}
+
+.construction-notice h3 {
+    color          : rgba(255, 215, 0, 0.8);
+    margin-bottom  : var(--vspace-0_5);
+    font-size      : var(--text-lg);
+}
+
+.construction-notice p {
+    color       : rgba(255, 255, 255, 0.7);
+    font-size   : var(--text-base);
+    margin      : 0;
+    line-height : 1.6;
+}
+
+/* ------------------------------------------------------------------- 
  * responsive:
  * footer
  * ------------------------------------------------------------------- */
